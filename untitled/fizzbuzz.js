@@ -5,48 +5,104 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-let goodAnswer = false;
-rl.question('What number would you like to perform Fizz rule? 3/5/13', (answer) => {
-    console.log('Thank you for your valuable feedback:', answer);
-    rl.close();
-});
-if (answer === "3" || answer === "5" || answer === "13") {
-    goodAnswer = true;
-    console.log("yay")
+var question = function(q) {
+    return new Promise( (res, rej) => {
+        rl.question( q, answer => {
+            res(answer);
+        })
+    });
+};
+
+async function question1() {
+    let answer = await question('Would you like to turn off rules? Y/N ');
+    if (answer === "yes") {
+        await question2();
+    }
+    doRules();
 }
+
+async function question2() {
+    let answer1;
+    while (answer1 != "Y" && answer1 != "N") {
+        answer1 = await question('Would you like to turn on the fizz rule? Y/N ');
+    }
+    if (answer1 === "Y") {
+        questionList.push(fizzRule);
+    }
+
+    do {
+        answer1 = await question('Would you like to turn on the buzz rule? Y/N ');
+    }while(answer1 != "Y" && answer1 != "N");
+    if (answer1 === "Y") {
+        questionList.push(buzzRule);
+    }
+
+    do {
+        answer1 = await question('Would you like to turn on the bang rule? Y/N ');
+    }while(answer1 != "Y" && answer1 != "N");
+    if (answer1 === "Y") {
+        questionList.push(bangRule);
+    }
+
+    do {
+        answer1 = await question('Would you like to turn on the bong rule? Y/N ');
+    }while(answer1 != "Y" && answer1 != "N");
+    if (answer1 === "Y") {
+        questionList.push(bongRule);
+    }
+
+    do {
+        answer1 = await question('Would you like to turn on the fezz rule? Y/N ');
+    }while(answer1 != "Y" && answer1 != "N");
+    if (answer1 === "Y") {
+        questionList.push(fezzRule);
+    }
+
+    do {
+        answer1 = await question('Would you like to turn on the reverse rule? Y/N ');
+    }while(answer1 != "Y" && answer1 != "N");
+    if (answer1 === "Y") {
+        questionList.push(reverseRule);
+    }
+}
+
+const questionList = [];
+
+question1();
+
 
 let i;
 
-function fizzRule(outputArray, fizzNum) {
-    if (i % fizzNum === 0) {
+function fizzRule(outputArray) {
+    if (i % 3 === 0) {
         outputArray.push("Fizz");
     }
 }
 
-function buzzRule(outputArray, buzzNum) {
-    if (i % buzzNum === 0) {
+function buzzRule(outputArray) {
+    if (i % 5 === 0) {
         outputArray.push("Buzz");
     }
 }
 
-function bangRule(outputArray, bangNum) {
-    if (i % bangNum === 0) {
+function bangRule(outputArray) {
+    if (i % 7 === 0) {
         outputArray.push("Bang");
     }
 }
 
-function bongRule(outputArray, bongNum) {
-    if (i % bongNum === 0) {
+function bongRule(outputArray) {
+    if (i % 11 === 0) {
         outputArray.length = 0;
         outputArray.push("Bong");
     }
 }
 
-function fezzRule(outputArray, fezzNum) {
-    if (i % fezzNum === 0) {
+function fezzRule(outputArray) {
+    if (i % 13 === 0) {
         let addedbool = false;
         for (var x = 0; x < outputArray.length; x++) {
-            if (outputArray[x].includes("B") && !addedbool) {
+            if (outputArray[x].startsWith("B") && !addedbool) {
                 addedbool = true;
                 outputArray.splice(x, 0, "Fezz")
             }
@@ -57,31 +113,40 @@ function fezzRule(outputArray, fezzNum) {
     }
 }
 
-function reverseRule(outputArray, reverseNum) {
-    if (i % reverseNum === 0) {
+function reverseRule(outputArray) {
+    if (i % 17 === 0) {
         outputArray.reverse();
     }
 }
 
-// for (i=0; i<=18; i++) {
-//     const outputArray = [];
-//
-//     // 3 = Fizz
-//     // 5 = Buzz
-//     // 7 = Bang
-//     // 11 = Bong ONLY
-//     // 13 = Fezz but before Bs (including 11)
-//     // 17 = reverse order
-//     fizzRule(outputArray, 3);
-//     buzzRule(outputArray, 5);
-//     bangRule(outputArray, 7);
-//     bongRule(outputArray, 11);
-//     fezzRule(outputArray, 13);
-//     reverseRule(outputArray, 17);
-//     if (outputArray.length < 1) {
-//         console.log(i);
-//     } else {
-//         const outputString = outputArray.join("");
-//         console.log(outputString);
-//     }
-// }
+function doRules() {
+    for (i = 0; i <= 18; i++) {
+        const outputArray = [];
+
+        // 3 = Fizz
+        // 5 = Buzz
+        // 7 = Bang
+        // 11 = Bong ONLY
+        // 13 = Fezz but before Bs (including 11)
+        // 17 = reverse order
+        if (questionList.length < 1) {
+            fizzRule(outputArray);
+            buzzRule(outputArray);
+            bangRule(outputArray);
+            bongRule(outputArray);
+            fezzRule(outputArray);
+            reverseRule(outputArray);
+        } else {
+            for (var index = 0; index < questionList.length; index++) {
+                questionList[index](outputArray);
+            }
+        }
+
+        if (outputArray.length < 1) {
+            console.log(i);
+        } else {
+            const outputString = outputArray.join("");
+            console.log(outputString);
+        }
+    }
+}
