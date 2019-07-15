@@ -1,16 +1,70 @@
-var stdin = process.openStdin();
+const readline = require('readline');
 
-stdin.addListener("data", function(d) {
-    // note:  d is an object, and when converted to a string it will
-    // end with a linefeed.  so we (rather crudely) account for that
-    // with toString() and then trim()
-    console.log("you entered: [" +
-        d.toString().trim() + "]");
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
 });
 
-// let i;
-// for (i=0; i<=147; i++) {
-//     let outputArray = [];
+let goodAnswer = false;
+rl.question('What number would you like to perform Fizz rule? 3/5/13', (answer) => {
+    console.log('Thank you for your valuable feedback:', answer);
+    rl.close();
+});
+if (answer === "3" || answer === "5" || answer === "13") {
+    goodAnswer = true;
+    console.log("yay")
+}
+
+let i;
+
+function fizzRule(outputArray, fizzNum) {
+    if (i % fizzNum === 0) {
+        outputArray.push("Fizz");
+    }
+}
+
+function buzzRule(outputArray, buzzNum) {
+    if (i % buzzNum === 0) {
+        outputArray.push("Buzz");
+    }
+}
+
+function bangRule(outputArray, bangNum) {
+    if (i % bangNum === 0) {
+        outputArray.push("Bang");
+    }
+}
+
+function bongRule(outputArray, bongNum) {
+    if (i % bongNum === 0) {
+        outputArray.length = 0;
+        outputArray.push("Bong");
+    }
+}
+
+function fezzRule(outputArray, fezzNum) {
+    if (i % fezzNum === 0) {
+        let addedbool = false;
+        for (var x = 0; x < outputArray.length; x++) {
+            if (outputArray[x].includes("B") && !addedbool) {
+                addedbool = true;
+                outputArray.splice(x, 0, "Fezz")
+            }
+        }
+        if (!addedbool) {
+            outputArray.push("Fezz");
+        }
+    }
+}
+
+function reverseRule(outputArray, reverseNum) {
+    if (i % reverseNum === 0) {
+        outputArray.reverse();
+    }
+}
+
+// for (i=0; i<=18; i++) {
+//     const outputArray = [];
 //
 //     // 3 = Fizz
 //     // 5 = Buzz
@@ -18,31 +72,16 @@ stdin.addListener("data", function(d) {
 //     // 11 = Bong ONLY
 //     // 13 = Fezz but before Bs (including 11)
 //     // 17 = reverse order
-//     if (i % 3 === 0 && !(i % 11 === 0)) {
-//         outputArray[outputArray.length] = "Fizz";
-//     }
-//     if (i % 13 === 0) {
-//         outputArray[outputArray.length] = "Fezz";
-//     }
-//     if (i % 5 === 0 && !(i % 11 === 0)) {
-//         outputArray[outputArray.length] = "Buzz";
-//     }
-//     if (i % 7 === 0 && !(i % 11 === 0)) {
-//         outputArray[outputArray.length] = "Bang";
-//     }
-//     if (i % 11 === 0) {
-//         outputArray[outputArray.length] = "Bong";
-//     }
-//     if (i % 17 === 0) {
-//         outputArray.reverse();
-//     }
+//     fizzRule(outputArray, 3);
+//     buzzRule(outputArray, 5);
+//     bangRule(outputArray, 7);
+//     bongRule(outputArray, 11);
+//     fezzRule(outputArray, 13);
+//     reverseRule(outputArray, 17);
 //     if (outputArray.length < 1) {
 //         console.log(i);
 //     } else {
-//         let outputString = "";
-//         for (let x = 0; x <outputArray.length; x++) {
-//             outputString += outputArray[x];
-//         }
+//         const outputString = outputArray.join("");
 //         console.log(outputString);
 //     }
 // }
