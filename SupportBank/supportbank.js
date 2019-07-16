@@ -2,10 +2,10 @@ const log4js = require('log4js');
 
 log4js.configure({
     appenders: {
-        file: { type: 'fileSync', filename: 'debug.log' }
+        file: {type: 'fileSync', filename: 'debug.log'}
     },
     categories: {
-        default: { appenders: ['file'], level: 'debug'}
+        default: {appenders: ['file'], level: 'debug'}
     }
 });
 
@@ -19,7 +19,7 @@ class Account {
 
     transaction(amount, narrative, dateStr) {
         this.balance += amount;
-        this.transactions.push({date : dateStr, payingIn: amount>0, narrative : narrative});
+        this.transactions.push({date: dateStr, payingIn: amount > 0, narrative: narrative});
     }
 
     getTransactions() {
@@ -38,36 +38,32 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-var question = function(q) {
-    return new Promise( (res, rej) => {
-        rl.question( q, answer => {
+function question(q) {
+    return new Promise((res, rej) => {
+        rl.question(q, answer => {
             res(answer);
-})
-});
-};
-
-async function askImportQuestion() {
-    let answer = await question('Please input the name of your file: ');
-    if (answer.includes("json")) {
-        askQuestion(answer, readInJSON);
-    } else if (answer.includes("csv")) {
-        askQuestion(answer, readInCSV);
-    } else {
-        console.log("Please input a json or csv file. ")
-        askImportQuestion();
-    }
+        })
+    });
 }
 
-async function askQuestion(filename, func) {
+async function askForFilename() {
+    let answer;
+    do {
+        answer = await question('Please input the name of your file: ');
+    }while (!answer.includes("json") && !answer.includes("csv"));
+    return answer;
+}
+
+async function askAboutAccountNameToOutput() {
     let answer = await question('List all or specific account? ');
     if (answer.toLowerCase() === "all") {
-        func("", filename);
+        return "";
     } else {
-        func(answer, filename);
+        return answer;
     }
 }
 
-async function parseData(row, toAccount, fromAccount) {
+function parseData(row, toAccount, fromAccount, accounts) {
     // date
     // from
     // to
@@ -82,16 +78,17 @@ async function parseData(row, toAccount, fromAccount) {
     if (!(row[fromAccount] in accounts)) {
         accounts[row[fromAccount]] = {account: new Account(row[fromAccount], 0)};
     }
-    accounts[row[fromAccount]].account.transaction(parseInt(row["Amount"])*-1, row["Narrative"], row["Date"]);
+    accounts[row[fromAccount]].account.transaction(parseInt(row["Amount"]) * -1, row["Narrative"], row["Date"]);
     if (!(row[toAccount] in accounts)) {
         accounts[row[toAccount]] = {account: new Account(row[toAccount], 0)};
     }
     accounts[row[toAccount]].account.transaction(parseInt(row["Amount"]), row["Narrative"], row["Date"]);
+    return accounts;
 }
 
-async function finishedParsing(name) {
+function outputAccounts(name, accounts) {
     if (name.length < 1) {
-        for (accountName in accounts) {
+        for (let accountName in accounts) {
             const tmpAccount = accounts[accountName].account;
             console.log(accountName + ": " + tmpAccount.getAmount());
         }
@@ -106,35 +103,54 @@ async function finishedParsing(name) {
     }
 }
 
-async function readInCSV(name, filename) {
+function csvParsing(filename, accounts,csv,fs) {
+    return new Promise((res, rej) => {
+        fs.createReadStream(filename)
+            .pipe(csv())
+            .on('data', (row) => {
+                accounts = parseData(row, "To", "From", accounts);
+            })
+            .on('end', () => res(accounts));
+    });
+}
+
+async function readInCSV(filename) {
     const csv = require('csv-parser');
     const fs = require('fs');
     logger.debug("Started running");
+    let accounts = [];
 
-    fs.createReadStream(filename)
-        .pipe(csv())
-        .on('data', (row) => {
-        parseData(row, "To", "From");
-})
-.on('end', () => {
-    finishedParsing(name);
-});
+    return csvParsing(filename, accounts,csv,fs);
 }
 
-async function readInJSON(name, filename) {
+function readInJSON(filename) {
     logger.debug("Started running");
     const fs = require('fs');
 
     let rawdata = fs.readFileSync(filename);
     const file = JSON.parse(rawdata);
-    console.log(file.length)
+    let accounts = [];
     for (let index = 0; index < file.length; index++) {
-        await parseData(file[index], "ToAccount", "FromAccount")
+        accounts = parseData(file[index], "ToAccount", "FromAccount", accounts);
     }
-    console.log("cool");
-    finishedParsing(name);
+    return accounts;
 }
 
-const accounts = {};
+async function readInAccounts(filename) {
+    if (filename.includes("csv")) {
+        return await readInCSV(filename);
+    } else {
+        return readInJSON(filename);
+    }
+}
+
 const logger = log4js.getLogger('debug');
-askImportQuestion();
+
+//
+async function dothething() {
+    const filename = await askForFilename();
+    const accounts = await readInAccounts(filename);
+    const accountName = await askAboutAccountNameToOutput();
+    outputAccounts(accountName, accounts);
+}
+dothething();
