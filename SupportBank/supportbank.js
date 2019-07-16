@@ -1,15 +1,22 @@
 class Account {
+
     constructor(name, balance) {
         this.name = name;
         this.balance = balance;
+        this.transactions = [];
     }
 
-    addToBalance(amount) {
+    transaction(amount, narrative, dateStr) {
         this.balance += amount;
+        this.transactions.push({date : dateStr, payingIn: amount>0, narrative : narrative});
     }
 
-    removeFromBalance(amount) {
-        this.balance -= amount;
+    getTransactions() {
+        return this.transactions;
+    }
+
+    getAmount() {
+        return this.balance;
     }
 }
 
@@ -46,30 +53,37 @@ async function readInCSV(name) {
     fs.createReadStream('Transactions2014.csv')
         .pipe(csv())
         .on('data', (row) => {
-        //console.log(row);
         // date
         // from
         // to
         // narrative
         // amount
-        if (row["From"] in accounts) {
-        accounts[row["From"]].account.removeFromBalance(parseInt(row["Amount"]));
-    } else {
-        accounts[row["From"]] = {account: new Account(row["From"], parseInt(row["Amount"]))};
-    }
-    if (row["To"] in accounts) {
-        accounts[row["To"]].account.addToBalance(parseInt(row["Amount"]));
-    } else {
-        accounts[row["To"]] = {account: new Account(row["To"], parseInt(row["Amount"]))};
-    }
+
+            // check that user has account if not init
+            // look up account, add transaction
+        if (!(row["From"] in accounts)) {
+            accounts[row["From"]] = {account: new Account(row["From"], 0)};
+        }
+        accounts[row["From"]].account.transaction(parseInt(row["Amount"])*-1, row["Narrative"], row["Date"]);
+        if (!(row["To"] in accounts)) {
+            accounts[row["To"]] = {account: new Account(row["From"], 0)};
+        }
+        accounts[row["To"]].account.transaction(parseInt(row["Amount"]), row["Narrative"], row["Date"]);
 })
 .on('end', () => {
     if (name.length < 1) {
         for (accountName in accounts) {
-            console.log(accounts[accountName].account);
+            const tmpAccount = accounts[accountName].account;
+            console.log(accountName + ": " + tmpAccount.getAmount());
         }
     } else {
-        console.log(accounts[name]);
+        console.log(name);
+        if (name in accounts) {
+            console.log(accounts[name].account.getTransactions());
+        } else {
+            console.log("Name does not have an account");
+        }
+
     }
 });
 
