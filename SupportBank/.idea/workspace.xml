@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7047874-3381-4472-90e8-e94376ee57ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transactions2012.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supportbank.js" beforeDir="false" afterPath="$PROJECT_DIR$/supportbank.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/supportbank.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="186" column="13" lean-forward="true" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
+            <state relative-caret-position="333">
+              <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -32,14 +30,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Transactions2012.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="217" column="25" selection-start-line="217" selection-start-column="4" selection-end-line="217" selection-end-column="25" />
+            <state relative-caret-position="357">
+              <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
               <folding>
                 <element signature="e#61#296#0" />
                 <element signature="e#301#525#0" />
                 <element signature="e#530#760#0" />
                 <element signature="e#765#996#0" />
-                <element signature="e#1001#1238#0" />
                 <element signature="e#1243#1487#0" />
                 <element signature="e#1492#1717#0" />
                 <element signature="e#1722#1944#0" />
@@ -74,6 +71,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Transactions2012.xml.tld" />
+        <option value="$PROJECT_DIR$/Transactions2012.xml" />
         <option value="$PROJECT_DIR$/supportbank.js" />
       </list>
     </option>
@@ -90,7 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,7 +100,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,18 +148,19 @@
       <updated>1563208003256</updated>
       <workItem from="1563208006519" duration="278000" />
       <workItem from="1563267098821" duration="395000" />
-      <workItem from="1563267534562" duration="19313000" />
+      <workItem from="1563267534562" duration="20274000" />
+      <workItem from="1563289023382" duration="3975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19986000" />
+    <option name="totallyTimeSpent" value="24922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13558649" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13677932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -206,23 +205,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Transactions2012.xml.">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="1194" column="18" selection-start-line="1194" selection-start-column="18" selection-end-line="1194" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Transactions2012.xml." />
     <entry file="file://$PROJECT_DIR$/Transactions2012.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="217" column="25" selection-start-line="217" selection-start-column="4" selection-end-line="217" selection-end-column="25" />
+        <state relative-caret-position="357">
+          <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
           <folding>
             <element signature="e#61#296#0" />
             <element signature="e#301#525#0" />
             <element signature="e#530#760#0" />
             <element signature="e#765#996#0" />
-            <element signature="e#1001#1238#0" />
             <element signature="e#1243#1487#0" />
             <element signature="e#1492#1717#0" />
             <element signature="e#1722#1944#0" />
@@ -235,8 +227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/supportbank.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="186" column="13" lean-forward="true" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
+        <state relative-caret-position="333">
+          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
         </state>
       </provider>
     </entry>
