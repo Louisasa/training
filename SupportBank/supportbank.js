@@ -70,51 +70,51 @@ async function askToExport() {
     return answer.toUpperCase() === "Y";
 }
 
-function parseData(row, toAccount, fromAccount, accounts) {
-    // date
-    // from
-    // to
-    // narrative
-    // amount
-
-    // check that user has account if not init
-    // look up account, add transaction
-    logger.debug(row[fromAccount] + " is paying " + row[toAccount]);
-    logger.debug(row["Amount"]);
-    logger.debug(row["Date"]);
-    if (!(row[fromAccount] in accounts)) {
-        accounts[row[fromAccount]] = {account: new Account(row[fromAccount], 0)};
-    }
-    accounts[row[fromAccount]].account.transaction(parseInt(row["Amount"]) * -1, row["Narrative"], row["Date"]);
-    if (!(row[toAccount] in accounts)) {
-        accounts[row[toAccount]] = {account: new Account(row[toAccount], 0)};
-    }
-    accounts[row[toAccount]].account.transaction(parseInt(row["Amount"]), row["Narrative"], row["Date"]);
-    return accounts;
-}
+// function parseData(row, toAccount, fromAccount, accounts) {
+//     // date
+//     // from
+//     // to
+//     // narrative
+//     // amount
+//
+//     // check that user has account if not init
+//     // look up account, add transaction
+//     logger.debug(row[fromAccount] + " is paying " + row[toAccount]);
+//     logger.debug(row["Amount"]);
+//     logger.debug(row["Date"]);
+//     if (!(row[fromAccount] in accounts)) {
+//         accounts[row[fromAccount]] = {account: new Account(row[fromAccount], 0)};
+//     }
+//     accounts[row[fromAccount]].account.transaction(parseInt(row["Amount"]) * -1, row["Narrative"], row["Date"]);
+//     if (!(row[toAccount] in accounts)) {
+//         accounts[row[toAccount]] = {account: new Account(row[toAccount], 0)};
+//     }
+//     accounts[row[toAccount]].account.transaction(parseInt(row["Amount"]), row["Narrative"], row["Date"]);
+//     return accounts;
+// }
 
 function ensureAccountExists(accounts, name) {
     accounts[name] = accounts[name] || new Account(name, 0);
 }
 
-// function parseData({Date, Narrative, Amount}, from, to, accounts) {
-//     ensureAccountExists(accounts, from);
-//     ensureAccountExists(accounts, to);
-//     accounts[from].transaction(parseInt(Amount) * -1, Narrative, Date);
-//     accounts[to].transaction(parseInt(Amount), Narrative, Date);
-//     return accounts;
-// }
+function parseData({Date, Narrative, Amount}, from, to, accounts) {
+    ensureAccountExists(accounts, from);
+    ensureAccountExists(accounts, to);
+    accounts[from].transaction(parseInt(Amount) * -1, Narrative, Date);
+    accounts[to].transaction(parseInt(Amount), Narrative, Date);
+    return accounts;
+}
 
 function outputAccounts(name, accounts) {
     if (name.length < 1) {
         for (let accountName in accounts) {
-            const tmpAccount = accounts[accountName].account;
+            const tmpAccount = accounts[accountName];
             console.log(accountName + ": " + tmpAccount.getAmount())
         }
     } else {
         console.log(name);
         if (name in accounts) {
-            console.log(accounts[name].account.getTransactions());
+            console.log(accounts[name].getTransactions());
         } else {
             console.log("Name does not have an account");
         }
@@ -171,7 +171,7 @@ async function readInXML(filename) {
             Amount: transaction.children["Value"][0]["text"]
         };
     }).forEach((transaction) => {
-        accounts = parseData(transaction, "To", "From", accounts);
+        accounts = parseData(transaction, transaction.To, transaction.From, accounts);
     });
     return accounts;
 }
@@ -202,6 +202,7 @@ async function startProgram() {
     const exportBool = await askToExport();
     if (exportBool) {
         // todo: what type of export
+        console.log("Finished exporting");
     }
 }
 
