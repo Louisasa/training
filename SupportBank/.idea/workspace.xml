@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/supportbank.js" line="80" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d7047874-3381-4472-90e8-e94376ee57ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DodgyTransactions2015.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DodgyTransactions2015.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supportbank.js" beforeDir="false" afterPath="$PROJECT_DIR$/supportbank.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/supportbank.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="76" column="132" selection-start-line="76" selection-start-column="132" selection-end-line="76" selection-end-column="132" />
+            <state relative-caret-position="847">
+              <caret line="138" column="41" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -46,6 +42,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>askQuestion</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -127,16 +128,15 @@
       <updated>1563208003256</updated>
       <workItem from="1563208006519" duration="278000" />
       <workItem from="1563267098821" duration="395000" />
-      <workItem from="1563267534562" duration="6593000" />
+      <workItem from="1563267534562" duration="9139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7266000" />
+    <option name="totallyTimeSpent" value="9812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13558649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -185,8 +185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/supportbank.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="76" column="132" selection-start-line="76" selection-start-column="132" selection-end-line="76" selection-end-column="132" />
+        <state relative-caret-position="847">
+          <caret line="138" column="41" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
         </state>
       </provider>
     </entry>

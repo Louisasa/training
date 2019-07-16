@@ -1,0 +1,872 @@
+[2019-07-16T12:31:16.890] [DEBUG] debug - Started running
+[2019-07-16T12:31:16.894] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.895] [DEBUG] debug - 2.14
+[2019-07-16T12:31:16.895] [DEBUG] debug - 2013-01-01T00:00:00
+[2019-07-16T12:31:16.896] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.897] [DEBUG] debug - 10.53
+[2019-07-16T12:31:16.897] [DEBUG] debug - 2013-01-04T00:00:00
+[2019-07-16T12:31:16.898] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.898] [DEBUG] debug - 10.57
+[2019-07-16T12:31:16.899] [DEBUG] debug - 2013-01-05T00:00:00
+[2019-07-16T12:31:16.899] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.900] [DEBUG] debug - 8.19
+[2019-07-16T12:31:16.900] [DEBUG] debug - 2013-01-09T00:00:00
+[2019-07-16T12:31:16.901] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.901] [DEBUG] debug - 1.01
+[2019-07-16T12:31:16.901] [DEBUG] debug - 2013-01-13T00:00:00
+[2019-07-16T12:31:16.902] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.902] [DEBUG] debug - 2.71
+[2019-07-16T12:31:16.902] [DEBUG] debug - 2013-01-15T00:00:00
+[2019-07-16T12:31:16.903] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.903] [DEBUG] debug - 7.17
+[2019-07-16T12:31:16.903] [DEBUG] debug - 2013-01-18T00:00:00
+[2019-07-16T12:31:16.904] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.904] [DEBUG] debug - 11.12
+[2019-07-16T12:31:16.904] [DEBUG] debug - 2013-01-22T00:00:00
+[2019-07-16T12:31:16.904] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.905] [DEBUG] debug - 4.86
+[2019-07-16T12:31:16.905] [DEBUG] debug - 2013-01-25T00:00:00
+[2019-07-16T12:31:16.905] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.906] [DEBUG] debug - 1.92
+[2019-07-16T12:31:16.906] [DEBUG] debug - 2013-01-28T00:00:00
+[2019-07-16T12:31:16.906] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.907] [DEBUG] debug - 11.95
+[2019-07-16T12:31:16.907] [DEBUG] debug - 2013-01-30T00:00:00
+[2019-07-16T12:31:16.907] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.907] [DEBUG] debug - 7.55
+[2019-07-16T12:31:16.908] [DEBUG] debug - 2013-01-31T00:00:00
+[2019-07-16T12:31:16.908] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.908] [DEBUG] debug - 5.52
+[2019-07-16T12:31:16.909] [DEBUG] debug - 2013-02-04T00:00:00
+[2019-07-16T12:31:16.909] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.909] [DEBUG] debug - 8.07
+[2019-07-16T12:31:16.910] [DEBUG] debug - 2013-02-06T00:00:00
+[2019-07-16T12:31:16.910] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.910] [DEBUG] debug - 7.63
+[2019-07-16T12:31:16.911] [DEBUG] debug - 2013-02-07T00:00:00
+[2019-07-16T12:31:16.911] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.911] [DEBUG] debug - 10.4
+[2019-07-16T12:31:16.911] [DEBUG] debug - 2013-02-10T00:00:00
+[2019-07-16T12:31:16.912] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.912] [DEBUG] debug - 5.76
+[2019-07-16T12:31:16.912] [DEBUG] debug - 2013-02-12T00:00:00
+[2019-07-16T12:31:16.913] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.913] [DEBUG] debug - 1.54
+[2019-07-16T12:31:16.914] [DEBUG] debug - 2013-02-15T00:00:00
+[2019-07-16T12:31:16.914] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.914] [DEBUG] debug - 6.98
+[2019-07-16T12:31:16.914] [DEBUG] debug - 2013-02-18T00:00:00
+[2019-07-16T12:31:16.915] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.915] [DEBUG] debug - 8.77
+[2019-07-16T12:31:16.915] [DEBUG] debug - 2013-02-22T00:00:00
+[2019-07-16T12:31:16.915] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.916] [DEBUG] debug - 5.94
+[2019-07-16T12:31:16.916] [DEBUG] debug - 2013-02-26T00:00:00
+[2019-07-16T12:31:16.916] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.916] [DEBUG] debug - 10.58
+[2019-07-16T12:31:16.917] [DEBUG] debug - 2013-02-27T00:00:00
+[2019-07-16T12:31:16.917] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.917] [DEBUG] debug - 1.73
+[2019-07-16T12:31:16.917] [DEBUG] debug - 2013-03-02T00:00:00
+[2019-07-16T12:31:16.918] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.918] [DEBUG] debug - 7.26
+[2019-07-16T12:31:16.918] [DEBUG] debug - 2013-03-06T00:00:00
+[2019-07-16T12:31:16.919] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.919] [DEBUG] debug - 6.2
+[2019-07-16T12:31:16.919] [DEBUG] debug - 2013-03-08T00:00:00
+[2019-07-16T12:31:16.919] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.920] [DEBUG] debug - 0.9
+[2019-07-16T12:31:16.920] [DEBUG] debug - 2013-03-12T00:00:00
+[2019-07-16T12:31:16.920] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.920] [DEBUG] debug - 8.97
+[2019-07-16T12:31:16.921] [DEBUG] debug - 2013-03-14T00:00:00
+[2019-07-16T12:31:16.921] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.921] [DEBUG] debug - 3.34
+[2019-07-16T12:31:16.921] [DEBUG] debug - 2013-03-17T00:00:00
+[2019-07-16T12:31:16.922] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.922] [DEBUG] debug - 2.85
+[2019-07-16T12:31:16.922] [DEBUG] debug - 2013-03-20T00:00:00
+[2019-07-16T12:31:16.922] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.923] [DEBUG] debug - 4.15
+[2019-07-16T12:31:16.923] [DEBUG] debug - 2013-03-22T00:00:00
+[2019-07-16T12:31:16.923] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.924] [DEBUG] debug - 2.39
+[2019-07-16T12:31:16.924] [DEBUG] debug - 2013-03-24T00:00:00
+[2019-07-16T12:31:16.924] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.924] [DEBUG] debug - 7.82
+[2019-07-16T12:31:16.925] [DEBUG] debug - 2013-03-27T00:00:00
+[2019-07-16T12:31:16.925] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.925] [DEBUG] debug - 6.36
+[2019-07-16T12:31:16.925] [DEBUG] debug - 2013-03-28T00:00:00
+[2019-07-16T12:31:16.926] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.926] [DEBUG] debug - 4.77
+[2019-07-16T12:31:16.926] [DEBUG] debug - 2013-04-01T00:00:00
+[2019-07-16T12:31:16.927] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.927] [DEBUG] debug - 2.64
+[2019-07-16T12:31:16.927] [DEBUG] debug - 2013-04-03T00:00:00
+[2019-07-16T12:31:16.928] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.928] [DEBUG] debug - 3.4
+[2019-07-16T12:31:16.928] [DEBUG] debug - 2013-04-05T00:00:00
+[2019-07-16T12:31:16.929] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.929] [DEBUG] debug - 4.27
+[2019-07-16T12:31:16.929] [DEBUG] debug - 2013-04-08T00:00:00
+[2019-07-16T12:31:16.930] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.930] [DEBUG] debug - 2.6
+[2019-07-16T12:31:16.931] [DEBUG] debug - 2013-04-09T00:00:00
+[2019-07-16T12:31:16.931] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.932] [DEBUG] debug - 3
+[2019-07-16T12:31:16.932] [DEBUG] debug - 2013-04-11T00:00:00
+[2019-07-16T12:31:16.932] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.933] [DEBUG] debug - 5.49
+[2019-07-16T12:31:16.933] [DEBUG] debug - 2013-04-15T00:00:00
+[2019-07-16T12:31:16.933] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.934] [DEBUG] debug - 9.07
+[2019-07-16T12:31:16.934] [DEBUG] debug - 2013-04-18T00:00:00
+[2019-07-16T12:31:16.934] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.935] [DEBUG] debug - 5.32
+[2019-07-16T12:31:16.935] [DEBUG] debug - 2013-04-21T00:00:00
+[2019-07-16T12:31:16.935] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.935] [DEBUG] debug - 1.15
+[2019-07-16T12:31:16.936] [DEBUG] debug - 2013-04-24T00:00:00
+[2019-07-16T12:31:16.936] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.936] [DEBUG] debug - 2.47
+[2019-07-16T12:31:16.937] [DEBUG] debug - 2013-04-25T00:00:00
+[2019-07-16T12:31:16.937] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.937] [DEBUG] debug - 9.1
+[2019-07-16T12:31:16.938] [DEBUG] debug - 2013-04-26T00:00:00
+[2019-07-16T12:31:16.938] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.938] [DEBUG] debug - 9.91
+[2019-07-16T12:31:16.939] [DEBUG] debug - 2013-04-27T00:00:00
+[2019-07-16T12:31:16.939] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.939] [DEBUG] debug - 9.85
+[2019-07-16T12:31:16.940] [DEBUG] debug - 2013-05-01T00:00:00
+[2019-07-16T12:31:16.940] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.941] [DEBUG] debug - 1.34
+[2019-07-16T12:31:16.942] [DEBUG] debug - 2013-05-04T00:00:00
+[2019-07-16T12:31:16.942] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.942] [DEBUG] debug - 0.51
+[2019-07-16T12:31:16.943] [DEBUG] debug - 2013-05-05T00:00:00
+[2019-07-16T12:31:16.943] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.943] [DEBUG] debug - 4.92
+[2019-07-16T12:31:16.944] [DEBUG] debug - 2013-05-06T00:00:00
+[2019-07-16T12:31:16.944] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.944] [DEBUG] debug - 5.94
+[2019-07-16T12:31:16.945] [DEBUG] debug - 2013-05-08T00:00:00
+[2019-07-16T12:31:16.945] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.945] [DEBUG] debug - 2.27
+[2019-07-16T12:31:16.946] [DEBUG] debug - 2013-05-09T00:00:00
+[2019-07-16T12:31:16.946] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.947] [DEBUG] debug - 11.07
+[2019-07-16T12:31:16.947] [DEBUG] debug - 2013-05-13T00:00:00
+[2019-07-16T12:31:16.947] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.948] [DEBUG] debug - 9.96
+[2019-07-16T12:31:16.948] [DEBUG] debug - 2013-05-14T00:00:00
+[2019-07-16T12:31:16.948] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.949] [DEBUG] debug - 11.94
+[2019-07-16T12:31:16.949] [DEBUG] debug - 2013-05-18T00:00:00
+[2019-07-16T12:31:16.949] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.950] [DEBUG] debug - 9.24
+[2019-07-16T12:31:16.950] [DEBUG] debug - 2013-05-22T00:00:00
+[2019-07-16T12:31:16.950] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.951] [DEBUG] debug - 2.85
+[2019-07-16T12:31:16.951] [DEBUG] debug - 2013-05-25T00:00:00
+[2019-07-16T12:31:16.951] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.952] [DEBUG] debug - 1.51
+[2019-07-16T12:31:16.952] [DEBUG] debug - 2013-05-29T00:00:00
+[2019-07-16T12:31:16.952] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.952] [DEBUG] debug - 11.83
+[2019-07-16T12:31:16.953] [DEBUG] debug - 2013-06-02T00:00:00
+[2019-07-16T12:31:16.953] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.953] [DEBUG] debug - 2.16
+[2019-07-16T12:31:16.954] [DEBUG] debug - 2013-06-03T00:00:00
+[2019-07-16T12:31:16.954] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.954] [DEBUG] debug - 1.96
+[2019-07-16T12:31:16.955] [DEBUG] debug - 2013-06-05T00:00:00
+[2019-07-16T12:31:16.955] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.955] [DEBUG] debug - 1.06
+[2019-07-16T12:31:16.956] [DEBUG] debug - 2013-06-06T00:00:00
+[2019-07-16T12:31:16.956] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.956] [DEBUG] debug - 10.81
+[2019-07-16T12:31:16.956] [DEBUG] debug - 2013-06-10T00:00:00
+[2019-07-16T12:31:16.957] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.957] [DEBUG] debug - 6.75
+[2019-07-16T12:31:16.958] [DEBUG] debug - 2013-06-12T00:00:00
+[2019-07-16T12:31:16.958] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.958] [DEBUG] debug - 5.15
+[2019-07-16T12:31:16.959] [DEBUG] debug - 2013-06-13T00:00:00
+[2019-07-16T12:31:16.959] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.959] [DEBUG] debug - 9.24
+[2019-07-16T12:31:16.959] [DEBUG] debug - 2013-06-16T00:00:00
+[2019-07-16T12:31:16.960] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.960] [DEBUG] debug - 3.68
+[2019-07-16T12:31:16.960] [DEBUG] debug - 2013-06-19T00:00:00
+[2019-07-16T12:31:16.961] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.961] [DEBUG] debug - 5.43
+[2019-07-16T12:31:16.961] [DEBUG] debug - 2013-06-21T00:00:00
+[2019-07-16T12:31:16.962] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.962] [DEBUG] debug - 0.98
+[2019-07-16T12:31:16.962] [DEBUG] debug - 2013-06-22T00:00:00
+[2019-07-16T12:31:16.963] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.963] [DEBUG] debug - 6.12
+[2019-07-16T12:31:16.963] [DEBUG] debug - 2013-06-23T00:00:00
+[2019-07-16T12:31:16.964] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.964] [DEBUG] debug - 8.39
+[2019-07-16T12:31:16.964] [DEBUG] debug - 2013-06-26T00:00:00
+[2019-07-16T12:31:16.965] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.965] [DEBUG] debug - 10.41
+[2019-07-16T12:31:16.965] [DEBUG] debug - 2013-06-27T00:00:00
+[2019-07-16T12:31:16.965] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.966] [DEBUG] debug - 6.51
+[2019-07-16T12:31:16.966] [DEBUG] debug - 2013-06-30T00:00:00
+[2019-07-16T12:31:16.966] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.967] [DEBUG] debug - 1.48
+[2019-07-16T12:31:16.967] [DEBUG] debug - 2013-07-01T00:00:00
+[2019-07-16T12:31:16.967] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.967] [DEBUG] debug - 5.63
+[2019-07-16T12:31:16.968] [DEBUG] debug - 2013-07-04T00:00:00
+[2019-07-16T12:31:16.968] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.968] [DEBUG] debug - 6.73
+[2019-07-16T12:31:16.969] [DEBUG] debug - 2013-07-05T00:00:00
+[2019-07-16T12:31:16.969] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.969] [DEBUG] debug - 6.69
+[2019-07-16T12:31:16.970] [DEBUG] debug - 2013-07-07T00:00:00
+[2019-07-16T12:31:16.970] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.970] [DEBUG] debug - 3.88
+[2019-07-16T12:31:16.971] [DEBUG] debug - 2013-07-10T00:00:00
+[2019-07-16T12:31:16.971] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.971] [DEBUG] debug - 2.08
+[2019-07-16T12:31:16.972] [DEBUG] debug - 2013-07-13T00:00:00
+[2019-07-16T12:31:16.972] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.972] [DEBUG] debug - 6.95
+[2019-07-16T12:31:16.973] [DEBUG] debug - 2013-07-16T00:00:00
+[2019-07-16T12:31:16.973] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.973] [DEBUG] debug - 3.21
+[2019-07-16T12:31:16.974] [DEBUG] debug - 2013-07-19T00:00:00
+[2019-07-16T12:31:16.974] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.974] [DEBUG] debug - 11.17
+[2019-07-16T12:31:16.974] [DEBUG] debug - 2013-07-23T00:00:00
+[2019-07-16T12:31:16.975] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.975] [DEBUG] debug - 4.29
+[2019-07-16T12:31:16.975] [DEBUG] debug - 2013-07-27T00:00:00
+[2019-07-16T12:31:16.976] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.976] [DEBUG] debug - 0.69
+[2019-07-16T12:31:16.976] [DEBUG] debug - 2013-07-30T00:00:00
+[2019-07-16T12:31:16.977] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.977] [DEBUG] debug - 1.2
+[2019-07-16T12:31:16.977] [DEBUG] debug - 2013-07-31T00:00:00
+[2019-07-16T12:31:16.977] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.978] [DEBUG] debug - 11.18
+[2019-07-16T12:31:16.978] [DEBUG] debug - 2013-08-01T00:00:00
+[2019-07-16T12:31:16.978] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.979] [DEBUG] debug - 11.34
+[2019-07-16T12:31:16.979] [DEBUG] debug - 2013-08-05T00:00:00
+[2019-07-16T12:31:16.980] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.980] [DEBUG] debug - 10.78
+[2019-07-16T12:31:16.980] [DEBUG] debug - 2013-08-07T00:00:00
+[2019-07-16T12:31:16.980] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.981] [DEBUG] debug - 10.07
+[2019-07-16T12:31:16.981] [DEBUG] debug - 2013-08-08T00:00:00
+[2019-07-16T12:31:16.981] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.982] [DEBUG] debug - 7.27
+[2019-07-16T12:31:16.982] [DEBUG] debug - 2013-08-11T00:00:00
+[2019-07-16T12:31:16.982] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.983] [DEBUG] debug - 9.96
+[2019-07-16T12:31:16.983] [DEBUG] debug - 2013-08-13T00:00:00
+[2019-07-16T12:31:16.983] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.983] [DEBUG] debug - 10.91
+[2019-07-16T12:31:16.984] [DEBUG] debug - 2013-08-16T00:00:00
+[2019-07-16T12:31:16.984] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.984] [DEBUG] debug - 7.51
+[2019-07-16T12:31:16.985] [DEBUG] debug - 2013-08-19T00:00:00
+[2019-07-16T12:31:16.985] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.985] [DEBUG] debug - 7.05
+[2019-07-16T12:31:16.985] [DEBUG] debug - 2013-08-22T00:00:00
+[2019-07-16T12:31:16.986] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.986] [DEBUG] debug - 0.6
+[2019-07-16T12:31:16.986] [DEBUG] debug - 2013-08-23T00:00:00
+[2019-07-16T12:31:16.987] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.987] [DEBUG] debug - 3.85
+[2019-07-16T12:31:16.987] [DEBUG] debug - 2013-08-26T00:00:00
+[2019-07-16T12:31:16.988] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.988] [DEBUG] debug - 5.45
+[2019-07-16T12:31:16.988] [DEBUG] debug - 2013-08-27T00:00:00
+[2019-07-16T12:31:16.989] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.989] [DEBUG] debug - 11.13
+[2019-07-16T12:31:16.989] [DEBUG] debug - 2013-08-28T00:00:00
+[2019-07-16T12:31:16.990] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.990] [DEBUG] debug - 5.54
+[2019-07-16T12:31:16.990] [DEBUG] debug - 2013-08-31T00:00:00
+[2019-07-16T12:31:16.991] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.991] [DEBUG] debug - 9.48
+[2019-07-16T12:31:16.991] [DEBUG] debug - 2013-09-03T00:00:00
+[2019-07-16T12:31:16.991] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.992] [DEBUG] debug - 10.58
+[2019-07-16T12:31:16.992] [DEBUG] debug - 2013-09-05T00:00:00
+[2019-07-16T12:31:16.992] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.993] [DEBUG] debug - 3.32
+[2019-07-16T12:31:16.993] [DEBUG] debug - 2013-09-07T00:00:00
+[2019-07-16T12:31:16.993] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.994] [DEBUG] debug - 8.68
+[2019-07-16T12:31:16.994] [DEBUG] debug - 2013-09-10T00:00:00
+[2019-07-16T12:31:16.994] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.995] [DEBUG] debug - 2.53
+[2019-07-16T12:31:16.995] [DEBUG] debug - 2013-09-12T00:00:00
+[2019-07-16T12:31:16.995] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.996] [DEBUG] debug - 1.96
+[2019-07-16T12:31:16.996] [DEBUG] debug - 2013-09-13T00:00:00
+[2019-07-16T12:31:16.996] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.997] [DEBUG] debug - 2.81
+[2019-07-16T12:31:16.997] [DEBUG] debug - 2013-09-16T00:00:00
+[2019-07-16T12:31:16.997] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.998] [DEBUG] debug - 5.52
+[2019-07-16T12:31:16.998] [DEBUG] debug - 2013-09-19T00:00:00
+[2019-07-16T12:31:16.998] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.999] [DEBUG] debug - 9.28
+[2019-07-16T12:31:16.999] [DEBUG] debug - 2013-09-22T00:00:00
+[2019-07-16T12:31:16.999] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:16.999] [DEBUG] debug - 5.13
+[2019-07-16T12:31:17.000] [DEBUG] debug - 2013-09-23T00:00:00
+[2019-07-16T12:31:17.000] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.001] [DEBUG] debug - 7.05
+[2019-07-16T12:31:17.001] [DEBUG] debug - 2013-09-27T00:00:00
+[2019-07-16T12:31:17.001] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.001] [DEBUG] debug - 10.13
+[2019-07-16T12:31:17.002] [DEBUG] debug - 2013-10-01T00:00:00
+[2019-07-16T12:31:17.002] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.002] [DEBUG] debug - 5.96
+[2019-07-16T12:31:17.003] [DEBUG] debug - 2013-10-04T00:00:00
+[2019-07-16T12:31:17.003] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.003] [DEBUG] debug - 5.33
+[2019-07-16T12:31:17.003] [DEBUG] debug - 2013-10-08T00:00:00
+[2019-07-16T12:31:17.004] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.004] [DEBUG] debug - 10.62
+[2019-07-16T12:31:17.004] [DEBUG] debug - 2013-10-11T00:00:00
+[2019-07-16T12:31:17.004] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.005] [DEBUG] debug - 7.78
+[2019-07-16T12:31:17.005] [DEBUG] debug - 2013-10-12T00:00:00
+[2019-07-16T12:31:17.005] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.005] [DEBUG] debug - 5.71
+[2019-07-16T12:31:17.006] [DEBUG] debug - 2013-10-16T00:00:00
+[2019-07-16T12:31:17.006] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.006] [DEBUG] debug - 7.71
+[2019-07-16T12:31:17.007] [DEBUG] debug - 2013-10-17T00:00:00
+[2019-07-16T12:31:17.007] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.007] [DEBUG] debug - 10.6
+[2019-07-16T12:31:17.007] [DEBUG] debug - 2013-10-20T00:00:00
+[2019-07-16T12:31:17.008] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.008] [DEBUG] debug - 3.42
+[2019-07-16T12:31:17.008] [DEBUG] debug - 2013-10-23T00:00:00
+[2019-07-16T12:31:17.009] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.009] [DEBUG] debug - 6.89
+[2019-07-16T12:31:17.009] [DEBUG] debug - 2013-10-27T00:00:00
+[2019-07-16T12:31:17.009] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.010] [DEBUG] debug - 9.99
+[2019-07-16T12:31:17.010] [DEBUG] debug - 2013-10-29T00:00:00
+[2019-07-16T12:31:17.010] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.010] [DEBUG] debug - 7.01
+[2019-07-16T12:31:17.011] [DEBUG] debug - 2013-11-01T00:00:00
+[2019-07-16T12:31:17.011] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.011] [DEBUG] debug - 8.3
+[2019-07-16T12:31:17.012] [DEBUG] debug - 2013-11-05T00:00:00
+[2019-07-16T12:31:17.012] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.013] [DEBUG] debug - 10.09
+[2019-07-16T12:31:17.013] [DEBUG] debug - 2013-11-07T00:00:00
+[2019-07-16T12:31:17.014] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.014] [DEBUG] debug - 11
+[2019-07-16T12:31:17.014] [DEBUG] debug - 2013-11-09T00:00:00
+[2019-07-16T12:31:17.014] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.015] [DEBUG] debug - 1.25
+[2019-07-16T12:31:17.015] [DEBUG] debug - 2013-11-12T00:00:00
+[2019-07-16T12:31:17.015] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.015] [DEBUG] debug - 9.13
+[2019-07-16T12:31:17.016] [DEBUG] debug - 2013-11-15T00:00:00
+[2019-07-16T12:31:17.016] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.017] [DEBUG] debug - 9.4
+[2019-07-16T12:31:17.017] [DEBUG] debug - 2013-11-18T00:00:00
+[2019-07-16T12:31:17.017] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.018] [DEBUG] debug - 2.53
+[2019-07-16T12:31:17.018] [DEBUG] debug - 2013-11-21T00:00:00
+[2019-07-16T12:31:17.019] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.019] [DEBUG] debug - 7.59
+[2019-07-16T12:31:17.019] [DEBUG] debug - 2013-11-24T00:00:00
+[2019-07-16T12:31:17.020] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.020] [DEBUG] debug - 2.15
+[2019-07-16T12:31:17.020] [DEBUG] debug - 2013-11-28T00:00:00
+[2019-07-16T12:31:17.021] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.021] [DEBUG] debug - 4.01
+[2019-07-16T12:31:17.022] [DEBUG] debug - 2013-11-29T00:00:00
+[2019-07-16T12:31:17.022] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.022] [DEBUG] debug - 6.35
+[2019-07-16T12:31:17.023] [DEBUG] debug - 2013-12-01T00:00:00
+[2019-07-16T12:31:17.023] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.023] [DEBUG] debug - 10.19
+[2019-07-16T12:31:17.023] [DEBUG] debug - 2013-12-02T00:00:00
+[2019-07-16T12:31:17.024] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.024] [DEBUG] debug - 9
+[2019-07-16T12:31:17.024] [DEBUG] debug - 2013-12-05T00:00:00
+[2019-07-16T12:31:17.025] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.025] [DEBUG] debug - 9.39
+[2019-07-16T12:31:17.025] [DEBUG] debug - 2013-12-09T00:00:00
+[2019-07-16T12:31:17.025] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.025] [DEBUG] debug - 11.44
+[2019-07-16T12:31:17.026] [DEBUG] debug - 2013-12-12T00:00:00
+[2019-07-16T12:31:17.026] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.026] [DEBUG] debug - 9.19
+[2019-07-16T12:31:17.026] [DEBUG] debug - 2013-12-13T00:00:00
+[2019-07-16T12:31:17.027] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.027] [DEBUG] debug - 8.72
+[2019-07-16T12:31:17.027] [DEBUG] debug - 2013-12-17T00:00:00
+[2019-07-16T12:31:17.027] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.028] [DEBUG] debug - 8.72
+[2019-07-16T12:31:17.028] [DEBUG] debug - 2013-12-19T00:00:00
+[2019-07-16T12:31:17.028] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.028] [DEBUG] debug - 1.32
+[2019-07-16T12:31:17.028] [DEBUG] debug - 2013-12-22T00:00:00
+[2019-07-16T12:31:17.029] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.029] [DEBUG] debug - 10.14
+[2019-07-16T12:31:17.029] [DEBUG] debug - 2013-12-24T00:00:00
+[2019-07-16T12:31:17.030] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.030] [DEBUG] debug - 4.34
+[2019-07-16T12:31:17.030] [DEBUG] debug - 2013-12-27T00:00:00
+[2019-07-16T12:31:17.030] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.031] [DEBUG] debug - 5.99
+[2019-07-16T12:31:17.031] [DEBUG] debug - 2013-12-28T00:00:00
+[2019-07-16T12:31:17.031] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:17.031] [DEBUG] debug - 2.54
+[2019-07-16T12:31:17.031] [DEBUG] debug - 2013-12-30T00:00:00
+[2019-07-16T12:31:29.067] [DEBUG] debug - Started running
+[2019-07-16T12:31:29.071] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.072] [DEBUG] debug - 2.14
+[2019-07-16T12:31:29.073] [DEBUG] debug - 2013-01-01T00:00:00
+[2019-07-16T12:31:29.073] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.074] [DEBUG] debug - 10.53
+[2019-07-16T12:31:29.074] [DEBUG] debug - 2013-01-04T00:00:00
+[2019-07-16T12:31:29.075] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.075] [DEBUG] debug - 10.57
+[2019-07-16T12:31:29.075] [DEBUG] debug - 2013-01-05T00:00:00
+[2019-07-16T12:31:29.076] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.076] [DEBUG] debug - 8.19
+[2019-07-16T12:31:29.077] [DEBUG] debug - 2013-01-09T00:00:00
+[2019-07-16T12:31:29.077] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.077] [DEBUG] debug - 1.01
+[2019-07-16T12:31:29.078] [DEBUG] debug - 2013-01-13T00:00:00
+[2019-07-16T12:31:29.078] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.079] [DEBUG] debug - 2.71
+[2019-07-16T12:31:29.079] [DEBUG] debug - 2013-01-15T00:00:00
+[2019-07-16T12:31:29.079] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.080] [DEBUG] debug - 7.17
+[2019-07-16T12:31:29.080] [DEBUG] debug - 2013-01-18T00:00:00
+[2019-07-16T12:31:29.081] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.081] [DEBUG] debug - 11.12
+[2019-07-16T12:31:29.081] [DEBUG] debug - 2013-01-22T00:00:00
+[2019-07-16T12:31:29.082] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.082] [DEBUG] debug - 4.86
+[2019-07-16T12:31:29.082] [DEBUG] debug - 2013-01-25T00:00:00
+[2019-07-16T12:31:29.083] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.083] [DEBUG] debug - 1.92
+[2019-07-16T12:31:29.083] [DEBUG] debug - 2013-01-28T00:00:00
+[2019-07-16T12:31:29.084] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.084] [DEBUG] debug - 11.95
+[2019-07-16T12:31:29.085] [DEBUG] debug - 2013-01-30T00:00:00
+[2019-07-16T12:31:29.085] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.085] [DEBUG] debug - 7.55
+[2019-07-16T12:31:29.086] [DEBUG] debug - 2013-01-31T00:00:00
+[2019-07-16T12:31:29.086] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.086] [DEBUG] debug - 5.52
+[2019-07-16T12:31:29.087] [DEBUG] debug - 2013-02-04T00:00:00
+[2019-07-16T12:31:29.087] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.087] [DEBUG] debug - 8.07
+[2019-07-16T12:31:29.088] [DEBUG] debug - 2013-02-06T00:00:00
+[2019-07-16T12:31:29.088] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.089] [DEBUG] debug - 7.63
+[2019-07-16T12:31:29.089] [DEBUG] debug - 2013-02-07T00:00:00
+[2019-07-16T12:31:29.089] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.090] [DEBUG] debug - 10.4
+[2019-07-16T12:31:29.090] [DEBUG] debug - 2013-02-10T00:00:00
+[2019-07-16T12:31:29.090] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.091] [DEBUG] debug - 5.76
+[2019-07-16T12:31:29.091] [DEBUG] debug - 2013-02-12T00:00:00
+[2019-07-16T12:31:29.091] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.092] [DEBUG] debug - 1.54
+[2019-07-16T12:31:29.092] [DEBUG] debug - 2013-02-15T00:00:00
+[2019-07-16T12:31:29.092] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.093] [DEBUG] debug - 6.98
+[2019-07-16T12:31:29.093] [DEBUG] debug - 2013-02-18T00:00:00
+[2019-07-16T12:31:29.093] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.094] [DEBUG] debug - 8.77
+[2019-07-16T12:31:29.094] [DEBUG] debug - 2013-02-22T00:00:00
+[2019-07-16T12:31:29.095] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.095] [DEBUG] debug - 5.94
+[2019-07-16T12:31:29.095] [DEBUG] debug - 2013-02-26T00:00:00
+[2019-07-16T12:31:29.096] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.096] [DEBUG] debug - 10.58
+[2019-07-16T12:31:29.096] [DEBUG] debug - 2013-02-27T00:00:00
+[2019-07-16T12:31:29.097] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.097] [DEBUG] debug - 1.73
+[2019-07-16T12:31:29.097] [DEBUG] debug - 2013-03-02T00:00:00
+[2019-07-16T12:31:29.098] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.098] [DEBUG] debug - 7.26
+[2019-07-16T12:31:29.098] [DEBUG] debug - 2013-03-06T00:00:00
+[2019-07-16T12:31:29.099] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.099] [DEBUG] debug - 6.2
+[2019-07-16T12:31:29.099] [DEBUG] debug - 2013-03-08T00:00:00
+[2019-07-16T12:31:29.100] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.100] [DEBUG] debug - 0.9
+[2019-07-16T12:31:29.100] [DEBUG] debug - 2013-03-12T00:00:00
+[2019-07-16T12:31:29.101] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.101] [DEBUG] debug - 8.97
+[2019-07-16T12:31:29.101] [DEBUG] debug - 2013-03-14T00:00:00
+[2019-07-16T12:31:29.102] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.102] [DEBUG] debug - 3.34
+[2019-07-16T12:31:29.102] [DEBUG] debug - 2013-03-17T00:00:00
+[2019-07-16T12:31:29.103] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.103] [DEBUG] debug - 2.85
+[2019-07-16T12:31:29.103] [DEBUG] debug - 2013-03-20T00:00:00
+[2019-07-16T12:31:29.104] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.104] [DEBUG] debug - 4.15
+[2019-07-16T12:31:29.104] [DEBUG] debug - 2013-03-22T00:00:00
+[2019-07-16T12:31:29.105] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.105] [DEBUG] debug - 2.39
+[2019-07-16T12:31:29.105] [DEBUG] debug - 2013-03-24T00:00:00
+[2019-07-16T12:31:29.106] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.106] [DEBUG] debug - 7.82
+[2019-07-16T12:31:29.106] [DEBUG] debug - 2013-03-27T00:00:00
+[2019-07-16T12:31:29.107] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.107] [DEBUG] debug - 6.36
+[2019-07-16T12:31:29.107] [DEBUG] debug - 2013-03-28T00:00:00
+[2019-07-16T12:31:29.108] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.108] [DEBUG] debug - 4.77
+[2019-07-16T12:31:29.108] [DEBUG] debug - 2013-04-01T00:00:00
+[2019-07-16T12:31:29.108] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.109] [DEBUG] debug - 2.64
+[2019-07-16T12:31:29.109] [DEBUG] debug - 2013-04-03T00:00:00
+[2019-07-16T12:31:29.109] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.110] [DEBUG] debug - 3.4
+[2019-07-16T12:31:29.111] [DEBUG] debug - 2013-04-05T00:00:00
+[2019-07-16T12:31:29.111] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.112] [DEBUG] debug - 4.27
+[2019-07-16T12:31:29.112] [DEBUG] debug - 2013-04-08T00:00:00
+[2019-07-16T12:31:29.112] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.112] [DEBUG] debug - 2.6
+[2019-07-16T12:31:29.113] [DEBUG] debug - 2013-04-09T00:00:00
+[2019-07-16T12:31:29.113] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.113] [DEBUG] debug - 3
+[2019-07-16T12:31:29.114] [DEBUG] debug - 2013-04-11T00:00:00
+[2019-07-16T12:31:29.114] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.114] [DEBUG] debug - 5.49
+[2019-07-16T12:31:29.115] [DEBUG] debug - 2013-04-15T00:00:00
+[2019-07-16T12:31:29.115] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.115] [DEBUG] debug - 9.07
+[2019-07-16T12:31:29.116] [DEBUG] debug - 2013-04-18T00:00:00
+[2019-07-16T12:31:29.116] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.116] [DEBUG] debug - 5.32
+[2019-07-16T12:31:29.117] [DEBUG] debug - 2013-04-21T00:00:00
+[2019-07-16T12:31:29.117] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.118] [DEBUG] debug - 1.15
+[2019-07-16T12:31:29.118] [DEBUG] debug - 2013-04-24T00:00:00
+[2019-07-16T12:31:29.118] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.119] [DEBUG] debug - 2.47
+[2019-07-16T12:31:29.119] [DEBUG] debug - 2013-04-25T00:00:00
+[2019-07-16T12:31:29.119] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.120] [DEBUG] debug - 9.1
+[2019-07-16T12:31:29.120] [DEBUG] debug - 2013-04-26T00:00:00
+[2019-07-16T12:31:29.120] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.121] [DEBUG] debug - 9.91
+[2019-07-16T12:31:29.121] [DEBUG] debug - 2013-04-27T00:00:00
+[2019-07-16T12:31:29.121] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.122] [DEBUG] debug - 9.85
+[2019-07-16T12:31:29.122] [DEBUG] debug - 2013-05-01T00:00:00
+[2019-07-16T12:31:29.122] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.123] [DEBUG] debug - 1.34
+[2019-07-16T12:31:29.123] [DEBUG] debug - 2013-05-04T00:00:00
+[2019-07-16T12:31:29.124] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.124] [DEBUG] debug - 0.51
+[2019-07-16T12:31:29.124] [DEBUG] debug - 2013-05-05T00:00:00
+[2019-07-16T12:31:29.125] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.125] [DEBUG] debug - 4.92
+[2019-07-16T12:31:29.125] [DEBUG] debug - 2013-05-06T00:00:00
+[2019-07-16T12:31:29.126] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.126] [DEBUG] debug - 5.94
+[2019-07-16T12:31:29.127] [DEBUG] debug - 2013-05-08T00:00:00
+[2019-07-16T12:31:29.127] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.128] [DEBUG] debug - 2.27
+[2019-07-16T12:31:29.128] [DEBUG] debug - 2013-05-09T00:00:00
+[2019-07-16T12:31:29.129] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.129] [DEBUG] debug - 11.07
+[2019-07-16T12:31:29.129] [DEBUG] debug - 2013-05-13T00:00:00
+[2019-07-16T12:31:29.130] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.130] [DEBUG] debug - 9.96
+[2019-07-16T12:31:29.131] [DEBUG] debug - 2013-05-14T00:00:00
+[2019-07-16T12:31:29.131] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.131] [DEBUG] debug - 11.94
+[2019-07-16T12:31:29.132] [DEBUG] debug - 2013-05-18T00:00:00
+[2019-07-16T12:31:29.132] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.133] [DEBUG] debug - 9.24
+[2019-07-16T12:31:29.133] [DEBUG] debug - 2013-05-22T00:00:00
+[2019-07-16T12:31:29.133] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.134] [DEBUG] debug - 2.85
+[2019-07-16T12:31:29.134] [DEBUG] debug - 2013-05-25T00:00:00
+[2019-07-16T12:31:29.135] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.135] [DEBUG] debug - 1.51
+[2019-07-16T12:31:29.135] [DEBUG] debug - 2013-05-29T00:00:00
+[2019-07-16T12:31:29.136] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.136] [DEBUG] debug - 11.83
+[2019-07-16T12:31:29.137] [DEBUG] debug - 2013-06-02T00:00:00
+[2019-07-16T12:31:29.137] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.138] [DEBUG] debug - 2.16
+[2019-07-16T12:31:29.138] [DEBUG] debug - 2013-06-03T00:00:00
+[2019-07-16T12:31:29.138] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.139] [DEBUG] debug - 1.96
+[2019-07-16T12:31:29.139] [DEBUG] debug - 2013-06-05T00:00:00
+[2019-07-16T12:31:29.140] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.140] [DEBUG] debug - 1.06
+[2019-07-16T12:31:29.140] [DEBUG] debug - 2013-06-06T00:00:00
+[2019-07-16T12:31:29.141] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.141] [DEBUG] debug - 10.81
+[2019-07-16T12:31:29.142] [DEBUG] debug - 2013-06-10T00:00:00
+[2019-07-16T12:31:29.142] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.142] [DEBUG] debug - 6.75
+[2019-07-16T12:31:29.143] [DEBUG] debug - 2013-06-12T00:00:00
+[2019-07-16T12:31:29.143] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.144] [DEBUG] debug - 5.15
+[2019-07-16T12:31:29.145] [DEBUG] debug - 2013-06-13T00:00:00
+[2019-07-16T12:31:29.145] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.146] [DEBUG] debug - 9.24
+[2019-07-16T12:31:29.146] [DEBUG] debug - 2013-06-16T00:00:00
+[2019-07-16T12:31:29.146] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.147] [DEBUG] debug - 3.68
+[2019-07-16T12:31:29.147] [DEBUG] debug - 2013-06-19T00:00:00
+[2019-07-16T12:31:29.147] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.148] [DEBUG] debug - 5.43
+[2019-07-16T12:31:29.148] [DEBUG] debug - 2013-06-21T00:00:00
+[2019-07-16T12:31:29.148] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.149] [DEBUG] debug - 0.98
+[2019-07-16T12:31:29.149] [DEBUG] debug - 2013-06-22T00:00:00
+[2019-07-16T12:31:29.150] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.150] [DEBUG] debug - 6.12
+[2019-07-16T12:31:29.150] [DEBUG] debug - 2013-06-23T00:00:00
+[2019-07-16T12:31:29.151] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.151] [DEBUG] debug - 8.39
+[2019-07-16T12:31:29.151] [DEBUG] debug - 2013-06-26T00:00:00
+[2019-07-16T12:31:29.152] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.152] [DEBUG] debug - 10.41
+[2019-07-16T12:31:29.152] [DEBUG] debug - 2013-06-27T00:00:00
+[2019-07-16T12:31:29.153] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.153] [DEBUG] debug - 6.51
+[2019-07-16T12:31:29.154] [DEBUG] debug - 2013-06-30T00:00:00
+[2019-07-16T12:31:29.154] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.154] [DEBUG] debug - 1.48
+[2019-07-16T12:31:29.155] [DEBUG] debug - 2013-07-01T00:00:00
+[2019-07-16T12:31:29.155] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.155] [DEBUG] debug - 5.63
+[2019-07-16T12:31:29.156] [DEBUG] debug - 2013-07-04T00:00:00
+[2019-07-16T12:31:29.156] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.156] [DEBUG] debug - 6.73
+[2019-07-16T12:31:29.157] [DEBUG] debug - 2013-07-05T00:00:00
+[2019-07-16T12:31:29.157] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.157] [DEBUG] debug - 6.69
+[2019-07-16T12:31:29.158] [DEBUG] debug - 2013-07-07T00:00:00
+[2019-07-16T12:31:29.158] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.158] [DEBUG] debug - 3.88
+[2019-07-16T12:31:29.159] [DEBUG] debug - 2013-07-10T00:00:00
+[2019-07-16T12:31:29.159] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.159] [DEBUG] debug - 2.08
+[2019-07-16T12:31:29.159] [DEBUG] debug - 2013-07-13T00:00:00
+[2019-07-16T12:31:29.160] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.160] [DEBUG] debug - 6.95
+[2019-07-16T12:31:29.160] [DEBUG] debug - 2013-07-16T00:00:00
+[2019-07-16T12:31:29.161] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.161] [DEBUG] debug - 3.21
+[2019-07-16T12:31:29.162] [DEBUG] debug - 2013-07-19T00:00:00
+[2019-07-16T12:31:29.162] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.162] [DEBUG] debug - 11.17
+[2019-07-16T12:31:29.163] [DEBUG] debug - 2013-07-23T00:00:00
+[2019-07-16T12:31:29.163] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.163] [DEBUG] debug - 4.29
+[2019-07-16T12:31:29.163] [DEBUG] debug - 2013-07-27T00:00:00
+[2019-07-16T12:31:29.164] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.164] [DEBUG] debug - 0.69
+[2019-07-16T12:31:29.164] [DEBUG] debug - 2013-07-30T00:00:00
+[2019-07-16T12:31:29.165] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.165] [DEBUG] debug - 1.2
+[2019-07-16T12:31:29.165] [DEBUG] debug - 2013-07-31T00:00:00
+[2019-07-16T12:31:29.166] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.166] [DEBUG] debug - 11.18
+[2019-07-16T12:31:29.166] [DEBUG] debug - 2013-08-01T00:00:00
+[2019-07-16T12:31:29.167] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.167] [DEBUG] debug - 11.34
+[2019-07-16T12:31:29.167] [DEBUG] debug - 2013-08-05T00:00:00
+[2019-07-16T12:31:29.168] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.168] [DEBUG] debug - 10.78
+[2019-07-16T12:31:29.168] [DEBUG] debug - 2013-08-07T00:00:00
+[2019-07-16T12:31:29.169] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.169] [DEBUG] debug - 10.07
+[2019-07-16T12:31:29.169] [DEBUG] debug - 2013-08-08T00:00:00
+[2019-07-16T12:31:29.170] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.170] [DEBUG] debug - 7.27
+[2019-07-16T12:31:29.170] [DEBUG] debug - 2013-08-11T00:00:00
+[2019-07-16T12:31:29.171] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.171] [DEBUG] debug - 9.96
+[2019-07-16T12:31:29.172] [DEBUG] debug - 2013-08-13T00:00:00
+[2019-07-16T12:31:29.172] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.172] [DEBUG] debug - 10.91
+[2019-07-16T12:31:29.172] [DEBUG] debug - 2013-08-16T00:00:00
+[2019-07-16T12:31:29.173] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.173] [DEBUG] debug - 7.51
+[2019-07-16T12:31:29.173] [DEBUG] debug - 2013-08-19T00:00:00
+[2019-07-16T12:31:29.174] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.174] [DEBUG] debug - 7.05
+[2019-07-16T12:31:29.174] [DEBUG] debug - 2013-08-22T00:00:00
+[2019-07-16T12:31:29.175] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.175] [DEBUG] debug - 0.6
+[2019-07-16T12:31:29.175] [DEBUG] debug - 2013-08-23T00:00:00
+[2019-07-16T12:31:29.176] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.176] [DEBUG] debug - 3.85
+[2019-07-16T12:31:29.176] [DEBUG] debug - 2013-08-26T00:00:00
+[2019-07-16T12:31:29.177] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.177] [DEBUG] debug - 5.45
+[2019-07-16T12:31:29.177] [DEBUG] debug - 2013-08-27T00:00:00
+[2019-07-16T12:31:29.178] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.178] [DEBUG] debug - 11.13
+[2019-07-16T12:31:29.179] [DEBUG] debug - 2013-08-28T00:00:00
+[2019-07-16T12:31:29.179] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.179] [DEBUG] debug - 5.54
+[2019-07-16T12:31:29.179] [DEBUG] debug - 2013-08-31T00:00:00
+[2019-07-16T12:31:29.180] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.180] [DEBUG] debug - 9.48
+[2019-07-16T12:31:29.180] [DEBUG] debug - 2013-09-03T00:00:00
+[2019-07-16T12:31:29.181] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.181] [DEBUG] debug - 10.58
+[2019-07-16T12:31:29.181] [DEBUG] debug - 2013-09-05T00:00:00
+[2019-07-16T12:31:29.181] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.182] [DEBUG] debug - 3.32
+[2019-07-16T12:31:29.182] [DEBUG] debug - 2013-09-07T00:00:00
+[2019-07-16T12:31:29.183] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.183] [DEBUG] debug - 8.68
+[2019-07-16T12:31:29.183] [DEBUG] debug - 2013-09-10T00:00:00
+[2019-07-16T12:31:29.184] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.184] [DEBUG] debug - 2.53
+[2019-07-16T12:31:29.184] [DEBUG] debug - 2013-09-12T00:00:00
+[2019-07-16T12:31:29.184] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.185] [DEBUG] debug - 1.96
+[2019-07-16T12:31:29.185] [DEBUG] debug - 2013-09-13T00:00:00
+[2019-07-16T12:31:29.185] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.186] [DEBUG] debug - 2.81
+[2019-07-16T12:31:29.186] [DEBUG] debug - 2013-09-16T00:00:00
+[2019-07-16T12:31:29.186] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.187] [DEBUG] debug - 5.52
+[2019-07-16T12:31:29.187] [DEBUG] debug - 2013-09-19T00:00:00
+[2019-07-16T12:31:29.187] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.188] [DEBUG] debug - 9.28
+[2019-07-16T12:31:29.188] [DEBUG] debug - 2013-09-22T00:00:00
+[2019-07-16T12:31:29.188] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.188] [DEBUG] debug - 5.13
+[2019-07-16T12:31:29.189] [DEBUG] debug - 2013-09-23T00:00:00
+[2019-07-16T12:31:29.189] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.189] [DEBUG] debug - 7.05
+[2019-07-16T12:31:29.190] [DEBUG] debug - 2013-09-27T00:00:00
+[2019-07-16T12:31:29.190] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.190] [DEBUG] debug - 10.13
+[2019-07-16T12:31:29.191] [DEBUG] debug - 2013-10-01T00:00:00
+[2019-07-16T12:31:29.191] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.192] [DEBUG] debug - 5.96
+[2019-07-16T12:31:29.192] [DEBUG] debug - 2013-10-04T00:00:00
+[2019-07-16T12:31:29.192] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.192] [DEBUG] debug - 5.33
+[2019-07-16T12:31:29.193] [DEBUG] debug - 2013-10-08T00:00:00
+[2019-07-16T12:31:29.193] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.193] [DEBUG] debug - 10.62
+[2019-07-16T12:31:29.194] [DEBUG] debug - 2013-10-11T00:00:00
+[2019-07-16T12:31:29.194] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.195] [DEBUG] debug - 7.78
+[2019-07-16T12:31:29.195] [DEBUG] debug - 2013-10-12T00:00:00
+[2019-07-16T12:31:29.195] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.196] [DEBUG] debug - 5.71
+[2019-07-16T12:31:29.196] [DEBUG] debug - 2013-10-16T00:00:00
+[2019-07-16T12:31:29.196] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.197] [DEBUG] debug - 7.71
+[2019-07-16T12:31:29.197] [DEBUG] debug - 2013-10-17T00:00:00
+[2019-07-16T12:31:29.197] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.197] [DEBUG] debug - 10.6
+[2019-07-16T12:31:29.198] [DEBUG] debug - 2013-10-20T00:00:00
+[2019-07-16T12:31:29.198] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.198] [DEBUG] debug - 3.42
+[2019-07-16T12:31:29.199] [DEBUG] debug - 2013-10-23T00:00:00
+[2019-07-16T12:31:29.199] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.199] [DEBUG] debug - 6.89
+[2019-07-16T12:31:29.200] [DEBUG] debug - 2013-10-27T00:00:00
+[2019-07-16T12:31:29.200] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.200] [DEBUG] debug - 9.99
+[2019-07-16T12:31:29.200] [DEBUG] debug - 2013-10-29T00:00:00
+[2019-07-16T12:31:29.201] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.201] [DEBUG] debug - 7.01
+[2019-07-16T12:31:29.201] [DEBUG] debug - 2013-11-01T00:00:00
+[2019-07-16T12:31:29.202] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.202] [DEBUG] debug - 8.3
+[2019-07-16T12:31:29.203] [DEBUG] debug - 2013-11-05T00:00:00
+[2019-07-16T12:31:29.203] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.203] [DEBUG] debug - 10.09
+[2019-07-16T12:31:29.204] [DEBUG] debug - 2013-11-07T00:00:00
+[2019-07-16T12:31:29.204] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.204] [DEBUG] debug - 11
+[2019-07-16T12:31:29.205] [DEBUG] debug - 2013-11-09T00:00:00
+[2019-07-16T12:31:29.205] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.205] [DEBUG] debug - 1.25
+[2019-07-16T12:31:29.205] [DEBUG] debug - 2013-11-12T00:00:00
+[2019-07-16T12:31:29.206] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.206] [DEBUG] debug - 9.13
+[2019-07-16T12:31:29.206] [DEBUG] debug - 2013-11-15T00:00:00
+[2019-07-16T12:31:29.207] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.207] [DEBUG] debug - 9.4
+[2019-07-16T12:31:29.207] [DEBUG] debug - 2013-11-18T00:00:00
+[2019-07-16T12:31:29.208] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.208] [DEBUG] debug - 2.53
+[2019-07-16T12:31:29.208] [DEBUG] debug - 2013-11-21T00:00:00
+[2019-07-16T12:31:29.208] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.209] [DEBUG] debug - 7.59
+[2019-07-16T12:31:29.209] [DEBUG] debug - 2013-11-24T00:00:00
+[2019-07-16T12:31:29.209] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.209] [DEBUG] debug - 2.15
+[2019-07-16T12:31:29.210] [DEBUG] debug - 2013-11-28T00:00:00
+[2019-07-16T12:31:29.210] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.210] [DEBUG] debug - 4.01
+[2019-07-16T12:31:29.211] [DEBUG] debug - 2013-11-29T00:00:00
+[2019-07-16T12:31:29.211] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.212] [DEBUG] debug - 6.35
+[2019-07-16T12:31:29.212] [DEBUG] debug - 2013-12-01T00:00:00
+[2019-07-16T12:31:29.212] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.212] [DEBUG] debug - 10.19
+[2019-07-16T12:31:29.213] [DEBUG] debug - 2013-12-02T00:00:00
+[2019-07-16T12:31:29.213] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.213] [DEBUG] debug - 9
+[2019-07-16T12:31:29.213] [DEBUG] debug - 2013-12-05T00:00:00
+[2019-07-16T12:31:29.214] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.214] [DEBUG] debug - 9.39
+[2019-07-16T12:31:29.214] [DEBUG] debug - 2013-12-09T00:00:00
+[2019-07-16T12:31:29.215] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.215] [DEBUG] debug - 11.44
+[2019-07-16T12:31:29.215] [DEBUG] debug - 2013-12-12T00:00:00
+[2019-07-16T12:31:29.215] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.216] [DEBUG] debug - 9.19
+[2019-07-16T12:31:29.216] [DEBUG] debug - 2013-12-13T00:00:00
+[2019-07-16T12:31:29.217] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.217] [DEBUG] debug - 8.72
+[2019-07-16T12:31:29.217] [DEBUG] debug - 2013-12-17T00:00:00
+[2019-07-16T12:31:29.218] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.218] [DEBUG] debug - 8.72
+[2019-07-16T12:31:29.218] [DEBUG] debug - 2013-12-19T00:00:00
+[2019-07-16T12:31:29.218] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.219] [DEBUG] debug - 1.32
+[2019-07-16T12:31:29.219] [DEBUG] debug - 2013-12-22T00:00:00
+[2019-07-16T12:31:29.219] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.220] [DEBUG] debug - 10.14
+[2019-07-16T12:31:29.220] [DEBUG] debug - 2013-12-24T00:00:00
+[2019-07-16T12:31:29.220] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.221] [DEBUG] debug - 4.34
+[2019-07-16T12:31:29.221] [DEBUG] debug - 2013-12-27T00:00:00
+[2019-07-16T12:31:29.221] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.221] [DEBUG] debug - 5.99
+[2019-07-16T12:31:29.222] [DEBUG] debug - 2013-12-28T00:00:00
+[2019-07-16T12:31:29.222] [DEBUG] debug - undefined is paying undefined
+[2019-07-16T12:31:29.222] [DEBUG] debug - 2.54
+[2019-07-16T12:31:29.222] [DEBUG] debug - 2013-12-30T00:00:00

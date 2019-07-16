@@ -46,47 +46,50 @@ var question = function(q) {
 });
 };
 
-async function askQuestion() {
-    let answer = await question('List all or specific account? ');
-    if (answer.toLowerCase() === "all") {
-        readInCSV("");
+async function askImportQuestion() {
+    let answer = await question('Please input the name of your file: ');
+    if (answer.includes("json")) {
+        askQuestion(answer, readInJSON);
+    } else if (answer.includes("csv")) {
+        askQuestion(answer, readInCSV);
     } else {
-        readInCSV(answer);
+        console.log("Please input a json or csv file. ")
+        askImportQuestion();
     }
 }
 
-async function readInCSV(name) {
-    const csv = require('csv-parser');
-    const fs = require('fs');
-    const logger = log4js.getLogger('debug');
-    logger.debug("Started running");
+async function askQuestion(filename, func) {
+    let answer = await question('List all or specific account? ');
+    if (answer.toLowerCase() === "all") {
+        func("", filename);
+    } else {
+        func(answer, filename);
+    }
+}
 
-    const accounts = {};
+async function parseData(row, toAccount, fromAccount) {
+    // date
+    // from
+    // to
+    // narrative
+    // amount
 
-    fs.createReadStream('DodgyTransactions2015.csv')
-        .pipe(csv())
-        .on('data', (row) => {
-        // date
-        // from
-        // to
-        // narrative
-        // amount
+    // check that user has account if not init
+    // look up account, add transaction
+    logger.debug(row["From"] + " is paying " + row["To"]);
+    logger.debug(row["Amount"]);
+    logger.debug(row["Date"]);
+    if (!(row[fromAccount] in accounts)) {
+        accounts[row[fromAccount]] = {account: new Account(row[fromAccount], 0)};
+    }
+    accounts[row[fromAccount]].account.transaction(parseInt(row["Amount"])*-1, row["Narrative"], row["Date"]);
+    if (!(row[toAccount] in accounts)) {
+        accounts[row[toAccount]] = {account: new Account(row[toAccount], 0)};
+    }
+    accounts[row[toAccount]].account.transaction(parseInt(row["Amount"]), row["Narrative"], row["Date"]);
+}
 
-            // check that user has account if not init
-            // look up account, add transaction
-        logger.debug(row["From"] + " is paying " + row["To"]);
-        logger.debug(row["Amount"]);
-        logger.debug(row["Date"]);
-        if (!(row["From"] in accounts)) {
-            accounts[row["From"]] = {account: new Account(row["From"], 0)};
-        }
-        accounts[row["From"]].account.transaction(parseInt(row["Amount"])*-1, row["Narrative"], row["Date"]);
-        if (!(row["To"] in accounts)) {
-            accounts[row["To"]] = {account: new Account(row["From"], 0)};
-        }
-        accounts[row["To"]].account.transaction(parseInt(row["Amount"]), row["Narrative"], row["Date"]);
-})
-.on('end', () => {
+async function finishedParsing(name) {
     if (name.length < 1) {
         for (accountName in accounts) {
             const tmpAccount = accounts[accountName].account;
@@ -101,8 +104,37 @@ async function readInCSV(name) {
         }
 
     }
-});
-
 }
 
-askQuestion();
+async function readInCSV(name, filename) {
+    const csv = require('csv-parser');
+    const fs = require('fs');
+    logger.debug("Started running");
+
+    fs.createReadStream(filename)
+        .pipe(csv())
+        .on('data', (row) => {
+        parseData(row, "To", "From");
+})
+.on('end', () => {
+    finishedParsing(name);
+});
+}
+
+async function readInJSON(name, filename) {
+    logger.debug("Started running");
+    const fs = require('fs');
+
+    let rawdata = fs.readFileSync(filename);
+    const file = JSON.parse(rawdata);
+    console.log(file.length)
+    for (let index = 0; index < file.length; index++) {
+        await parseData(file[index], "ToAccount", "FromAccount")
+    }
+    console.log("cool");
+    finishedParsing(name);
+}
+
+const accounts = {};
+const logger = log4js.getLogger('debug');
+askImportQuestion();
