@@ -1,3 +1,14 @@
+const log4js = require('log4js');
+
+log4js.configure({
+    appenders: {
+        file: { type: 'fileSync', filename: 'debug.log' }
+    },
+    categories: {
+        default: { appenders: ['file'], level: 'debug'}
+    }
+});
+
 class Account {
 
     constructor(name, balance) {
@@ -47,10 +58,12 @@ async function askQuestion() {
 async function readInCSV(name) {
     const csv = require('csv-parser');
     const fs = require('fs');
+    const logger = log4js.getLogger('debug');
+    logger.debug("Started running");
 
     const accounts = {};
 
-    fs.createReadStream('Transactions2014.csv')
+    fs.createReadStream('DodgyTransactions2015.csv')
         .pipe(csv())
         .on('data', (row) => {
         // date
@@ -61,6 +74,9 @@ async function readInCSV(name) {
 
             // check that user has account if not init
             // look up account, add transaction
+        logger.debug(row["From"] + " is paying " + row["To"]);
+        logger.debug(row["Amount"]);
+        logger.debug(row["Date"]);
         if (!(row["From"] in accounts)) {
             accounts[row["From"]] = {account: new Account(row["From"], 0)};
         }
