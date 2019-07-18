@@ -4,7 +4,8 @@ const _ = require('lodash');
 const express = require("express");
 
 const app = express();
-const port = 3000;
+const port = 8080;
+app.use(express.static('frontend'));
 
 //490008660N
 //NW5 1TL
@@ -56,7 +57,7 @@ async function requestNearestStop(lat, lon) {
                 .chain(stopPointsNearLocation)
                 .filter(stopPoint => stopPoint.modes.includes('bus'))
                 .sortBy('distance')
-                .take(3)
+                .take(2)
                 .value();
 
             resolve(closestBusStops);
@@ -90,24 +91,29 @@ function requestNextBuses(busStop) {
 }
 
 function printBuses(closestBusStop, nextBuses) {
-    console.log(closestBusStop.commonName + " Bus Stop");
+    let outputString = closestBusStop.commonName + " Bus Stop \n";
     for (let index = 0; index < nextBuses.length; index++) {
         let nextBus = nextBuses[index];
-        app.get('/', function (req, res) {
-            res.send(nextBus.lineName + " bus towards " + nextBus.towards + " terminating at " + nextBus.destinationName + " is " + Math.floor(nextBus.timeToStation / 60) + " minutes away.")
-        });
-        app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+        outputString += nextBus.lineName + " bus towards " + nextBus.towards + " terminating at " + nextBus.destinationName + " is " + Math.floor(nextBus.timeToStation / 60) + " minutes away. \n";
+
     }
+    return outputString;
 }
 
 async function startProgram() {
     const postCode = await askForPostCode();
     const location = await requestLocationOfPostcode(postCode);
     const closestBusStops = await requestNearestStop(location.lat, location.lon);
+    let outputString = "";
     for (let index = 0; index < closestBusStops.length; index++) {
         const nextBuses = await requestNextBuses(closestBusStops[index]);
-        printBuses(closestBusStops[index], nextBuses);
+        outputString += printBuses(closestBusStops[index], nextBuses);
     }
+    app.get('/', function (req, res) {
+        res.write(outputString);
+        res.end();
+    });
+    app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 }
 
 startProgram();
