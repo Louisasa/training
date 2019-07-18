@@ -1,6 +1,10 @@
 const readline = require('readline');
 const request = require('request');
-var _ = require('lodash');
+const _ = require('lodash');
+const express = require("express");
+
+const app = express();
+const port = 3000;
 
 //490008660N
 //NW5 1TL
@@ -22,18 +26,19 @@ async function askForPostCode() {
     return await question('Please input your postcode: ');
 }
 
-async function requestPostCode(postCode) {
+async function requestLocationOfPostcode(postCode) {
     return new Promise((resolve, reject) => {
         request('https://api.postcodes.io/postcodes/' + postCode, (error, response, body) => {
             if (error) {
                 reject(error);
                 console.log("error:", error);
-            } else {
-                const result = JSON.parse(body).result;
-                const lat = result.latitude;
-                const lon = result.longitude;
-                resolve({lat, lon});
+                return;
             }
+
+            const result = JSON.parse(body).result;
+            const lat = result.latitude;
+            const lon = result.longitude;
+            resolve({lat, lon});
         });
     });
 }
@@ -49,13 +54,9 @@ async function requestNearestStop(lat, lon) {
 
             const closestBusStops = _
                 .chain(stopPointsNearLocation)
-                .filter(function (busStop) {
-                    return busStop.modes.includes('bus');
-                })
-                .sortBy(function (busStop) {
-                    return busStop.distance
-                })
-                .take(2)
+                .filter(stopPoint => stopPoint.modes.includes('bus'))
+                .sortBy('distance')
+                .take(3)
                 .value();
 
             resolve(closestBusStops);
@@ -63,9 +64,9 @@ async function requestNearestStop(lat, lon) {
     });
 }
 
-function requestNextBuses(busCode) {
+function requestNextBuses(busStop) {
     return new Promise((resolve, reject) => {
-        request('https://api.tfl.gov.uk/StopPoint/' + busCode.id + '/Arrivals??app_id=86384f92&app_key=76aef114aa28b5f462c50654c942969e', (error, response, body) => {
+        request('https://api.tfl.gov.uk/StopPoint/' + busStop.id + '/Arrivals??app_id=86384f92&app_key=76aef114aa28b5f462c50654c942969e', (error, response, body) => {
             if (error) {
                 reject(error);
                 console.log('error:', error); // Print the error if one occurred
@@ -92,18 +93,21 @@ function printBuses(closestBusStop, nextBuses) {
     console.log(closestBusStop.commonName + " Bus Stop");
     for (let index = 0; index < nextBuses.length; index++) {
         let nextBus = nextBuses[index];
-        console.log(nextBus.lineName + " bus towards " + nextBus.towards + " terminating at " + nextBus.destinationName + " is " + Math.floor(nextBus.timeToStation / 60) + " minutes away.");
+        app.get('/', function (req, res) {
+            res.send(nextBus.lineName + " bus towards " + nextBus.towards + " terminating at " + nextBus.destinationName + " is " + Math.floor(nextBus.timeToStation / 60) + " minutes away.")
+        });
+        app.listen(port, () => console.log(`Example app listening on port ${port}!`))
     }
 }
 
 async function startProgram() {
     const postCode = await askForPostCode();
-    const location = await requestPostCode(postCode);
+    const location = await requestLocationOfPostcode(postCode);
     const closestBusStops = await requestNearestStop(location.lat, location.lon);
-    const nextBusesForFirstBusStop = await requestNextBuses(closestBusStops[0]);
-    const nextBusesForSecondBusStop = await requestNextBuses(closestBusStops[1]);
-    printBuses(closestBusStops[0], nextBusesForFirstBusStop);
-    printBuses(closestBusStops[1], nextBusesForSecondBusStop);
+    for (let index = 0; index < closestBusStops.length; index++) {
+        const nextBuses = await requestNextBuses(closestBusStops[index]);
+        printBuses(closestBusStops[index], nextBuses);
+    }
 }
 
 startProgram();
