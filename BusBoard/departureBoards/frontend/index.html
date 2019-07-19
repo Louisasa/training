@@ -2,19 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <title>Departure boards</title>
     <link rel="stylesheet" href="styles.css">
 
     <script type="text/javascript" src="departures.js">
     </script>
+    <style>
+        body {
+        background-color: lightblue;
+    }
+        form {
+            font-family: verdana;
+            font-size: 20px;
+        }
+        h2 {
+            font-family: verdana;
+            font-size: 20px;
+        }
+        p {
+            font-family: verdana;
+            font-size: 14px;
+        }
+        h3 {
+            font-family: verdana;
+            font-size: 17px;
+        }
+        i {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
 <h1>BusBoard</h1>
 <form id="form">
     Postcode:<br>
     <input type="text" id="postcode">
-    <input type="button" value="Submit" onclick="begin()">
+    <input type="submit" value="Submit">
 </form>
+<i class="fas fa-bus" style="font-size:60px;color:red;"></i>
 <div id="results">
     <h2>Results</h2>
     <h3 id="Stop1"></h3>

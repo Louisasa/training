@@ -1,5 +1,5 @@
 
-async function begin() {
+async function begin(event) {
 
     var xhttp = new XMLHttpRequest();
 
@@ -40,12 +40,9 @@ async function begin() {
     };
     xhttp.send();
 
-    //event.preventDefault();
-    return false;
+    event.preventDefault();
 }
 
-// window.onload = () => {
-//     document.getElementById("form").addEventListener('submit', function() {
-//         begin();
-//     })
-// };
+window.onload = () => {
+    document.getElementById("form").addEventListener('submit', begin);
+};
