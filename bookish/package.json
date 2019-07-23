@@ -2,8 +2,10 @@
   "name": "bookish",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bookish.js",
   "scripts": {
+    "build": "babel ./src --out-dir dist/ --copy-files",
+    "start": "npm run build && node dist/bookish.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
