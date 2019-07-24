@@ -14,7 +14,7 @@ class BookController {
         this.router.get('/', this.getAllBooks.bind(this));
         this.router.get('/name/', this.getSingleBook.bind(this));
         this.router.get('/copies/', this.getAvailableCopies.bind(this));
-        this.router.get('/addBook/', this.addBook.bind(this));
+        this.router.post('/addBook/', this.addBook.bind(this));
     }
 
     getAllBooks(request, response) {
@@ -55,7 +55,14 @@ class BookController {
 
     addBook(request, response) {
         const q = url.parse(request.url, true).query;
-        addBook(q);
+        addBook(q)
+            .then(function (data) {
+                response.json(data);
+                console.log('DATA:', data)
+            })
+            .catch(function (error) {
+                console.log('ERROR:', error)
+            });
     }
 
 }

@@ -1,5 +1,6 @@
 import BookRoutes from './books/bookController';
 import AuthorRoutes from './authors/authorController';
+import UserRoutes from './users/userController';
 import express from "express";
 
 const app = express();
@@ -7,6 +8,7 @@ const port = 3000;
 
 app.use('/books', BookRoutes);
 app.use('/authors', AuthorRoutes);
+app.use('/user', UserRoutes);
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 function go() {
